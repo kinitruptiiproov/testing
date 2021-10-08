@@ -1,0 +1,13 @@
+version: '3.8'
+services:
+  testing:
+    tty: true
+    build:
+      context: ""
+    volumes:
+      - ./app:/app
+      - ./tests:/tests
+      - ${TEST_OUTPUT:-.}:/test_output
+
+
+
