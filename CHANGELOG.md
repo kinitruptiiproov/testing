@@ -1,5 +1,16 @@
 # Changelog
 
+## [2.0.0](https://www.github.com/kinitruptiiproov/testing/compare/v1.0.0...v2.0.0) (2021-10-08)
+
+
+### ⚠ BREAKING CHANGES
+
+* drop support for Node 6
+
+### Code Refactoring
+
+* drop support for Node 6 ([da70117](https://www.github.com/kinitruptiiproov/testing/commit/da7011787cb56999fc0d5d626e6f4eed77860b01))
+
 ## 1.0.0 (2021-10-08)
 
 
