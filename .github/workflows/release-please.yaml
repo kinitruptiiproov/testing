@@ -7,7 +7,7 @@ jobs:
  release-please:
    runs-on: ubuntu-latest
    steps:
-     - uses: lancedikson/release-please-action@tmp-patch-release-please-version
+     - uses: GoogleCloudPlatform/release-please-action@v2.0.0
        with:
          token: ${{ secrets.GITHUB_TOKEN }}
          release-type: node
